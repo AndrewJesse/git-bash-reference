@@ -1,3 +1,44 @@
+Type these commands into Git Bash to upload a project to a GitHub.com repository
+Substitute Practice1 for your project name
+
 $ git remote add origin https://github.com/ajman789/Practice1.git
 $ git brank -M main
 $ git push -u origin main
+
+
+
+Step for creating a reposityory in Git Bash.
+
+Create a Git Repository for a Project
+1. Open Git Bash in the root project folder
+2. Copy .gitignore to the root project folder
+3. Initialize repo: git init
+4. Stage files: git add .
+5. Commit files: git commit –m”Initialize project”
+
+Implement a Feature in your Project
+1. Open Git Bash in the root project folder
+2. Check that you are on the master branch with nothing to commit
+3. Create branch with descriptive name: git branch my-feature
+4. Move onto branch: git checkout my-feature
+5. Repeat for each small step in implementing the feature:
+a. Work on Java code, creating classes, editing code, testing
+b. Stage updated files: git add .
+c. Commit files with descriptive message: git commit –m”Describe updates”
+6. When feature is complete, move back to master: git checkout master
+7. Merge feature into master: git merge my-feature
+
+Git Command Reference
+git status Show status of the repository
+git checkout branch-name Move onto a branch
+git log Show commit log
+git log --oneline Show commit log in condensed form
+git add file Stage a file
+git reset HEAD file Unstage a file
+git commit –m”Message” Commit staged files
+git merge branch-name Merge branch-name into the current branch
+
+Bash Command Reference
+ls -a List files in the current folder, including hidden files
+cd folder Change directory to the specified folder
+cd .. Change directory up one level
