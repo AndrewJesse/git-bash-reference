@@ -5,9 +5,19 @@ $ git remote add origin https://github.com/ajman789/Practice1.git
 $ git brank -M main
 $ git push -u origin main
 "$ git push to publish local commits"
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+If you constantly get the following git error message after attempting a git push with a new local branch:
 
+fatal: The current branch <branchname> has no upstream branch.
+To push the current branch and set the remote as upstream, use
 
+    git push --set-upstream origin <branchname>
+Then the issue is that you have not configured git to always create new branches on the remote from local ones.
 
+The permanent fix if you always want to just create that new branch on the remote to mirror and track your local branch is:
+
+ git config --global push.default current
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Step for creating a reposityory in Git Bash.
 
 Create a Git Repository for a Project
