@@ -2,10 +2,8 @@ Type these commands into Git Bash to upload a project to a GitHub.com repository
 Substitute Practice1 for your project name
 The "$ git stash" command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-$ git remote add origin https://github.com/ajman789/Practice1.git
-$ git brank -M main
-$ git push -u origin main
-"$ git push to publish local commits"
+$ git remote add "branchName" https://github.com/ajman789/"branchName".git
+$ git push -u "branchName" 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 If you constantly get the following git error message after attempting a git push with a new local branch:
 fatal: The current branch <branchname> has no upstream branch.
