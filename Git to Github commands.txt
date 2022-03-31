@@ -4,6 +4,7 @@ Substitute Practice1 for your project name
 $ git remote add origin https://github.com/ajman789/Practice1.git
 $ git brank -M main
 $ git push -u origin main
+"$ git push to publish local commits"
 
 
 
