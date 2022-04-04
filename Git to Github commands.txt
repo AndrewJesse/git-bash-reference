@@ -59,3 +59,7 @@ Bash Command Reference
 ls -a List files in the current folder, including hidden files
 cd folder Change directory to the specified folder
 cd .. Change directory up one level
+
+Major Resources 
+https://docs.github.com/en/get-started/quickstart/github-flow
+http://git-scm.com/video/what-is-version-control
