@@ -2,6 +2,8 @@
 Type these commands into Git Bash to upload a project to a GitHub.com repository
 Substitute Practice1 for your project name
 The "$ git stash" command takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy.
+Import entire project from github.com to an automatically created folder on your system.
+$ git clone https://github.com/examplename/examplename.git
 
 ///////////////////                  ///////////////////                  ///////////////////                  ///////////////////
 $ git remote add "branchName" https://github.com/ajman789/"branchName".git
