@@ -1,0 +1,16 @@
+How to Delete Commits in Git
+You can easily delete commits in git using git reset command. But there are a few things to keep in mind, while working with it, as you can see below.
+
+Before you run the following commands, it is advisable to use git stash to save all the changes in your present branch.
+
+Here is the command to delete the previous commit in your existing branch. It will delete the last commit of your present working branch.
+
+$ git reset --hard HEAD~1
+The number ~1 indicates that you want to delete the last 1 commit. If you want to delete last 5 commits, replace 1 with 5 above.
+
+$ git reset --hard HEAD~5
+The above command will take your HEAD back by 5 commits.
+
+If you want to go back to a specific commit, find its commit id using git log command, and then use git reset as follows.
+
+$ git reset --hard <sha1-commit-id>
