@@ -1,0 +1,23 @@
+What is git stash for?
+When you have made changes that you are not ready to commit.
+Maybe you need to switch branches without a commit.
+When you want to revert back temporariliy to where it was that you started but you dont know what to do with your changes.
+If you made changes on the wrong branch.
+
+How to use gite stash:
+1.git branch my-feature
+2.git checkout my-feature
+make changes
+3.git diff
+4.git stash save"Add description of stashed file"
+git stash list
+At this point working tree will be clean and changes will be no longer visible and you can move away from your stashed work.
+When you want to return to your stashed work
+
+1.git stash apply stash@{0} will apply target stash but leave a copy in your stash
+2.git stash pop will merge the lowest stash{0} number to its original branch and delete that left over stash file
+git stash list "working tree now clean" 
+
+Other commands
+git stash drop stash@{0}     -delete target stash item
+git stash clear              -deletes all stash
